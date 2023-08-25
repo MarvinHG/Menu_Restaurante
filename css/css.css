@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------- Inicio ---------------*/
+#Inicio{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    #Inicio div.container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 2rem;
+    }
+}
+#Inicio div.container div{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+#Inicio div.container_1{
+    border: 3px solid black;
+    margin-top: 10%;
+    padding: 2% 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Inicio div.container div p{
+    text-align:center; 
+    width: 80%;
+}
+#Inicio .container_1 img{
+    width: 50%;
+    margin-bottom: 5%;
+}
+#Inicio .container_2 img {
+    width: 95%;
+}
+#Inicio .container_1 h2 {
+    margin-bottom: 5%;
+}
+#Inicio div.container div p{
+    text-align:center; 
+    width: 80%;
+    margin-bottom: 5%;
+}
+#Inicio .container_1 a {
+    text-decoration: none;
+}
+#Inicio .container_1 a button {
+    background-color: #4C4C4E;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+#Inicio .container_1 a button:hover{
+    cursor: pointer;
+}
+#Inicio .container_1 a span {
+    color: white;
+}
+#Inicio .container_2 {
+    margin-top: 6%;
+}
+
+
+/* ----------- Part_1 ---------------*/
+
+#part_1{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+#part_1 nav { 
+    width: 100%;
+    margin: 0.5% 25%;
+}
+#part_1 nav a {
+    padding: 3%;
+}
+#part_1 nav a button {
+    background-color: #782E11;
+    color: white;
+    border-radius: 100%;
+    width: 5%;
+    height: 5%;
+    padding: 1%;
+}
+#part_1 hr{
+    border: #782E11 2px solid;
+    width: 35%;
+    margin: -2% 0 2% 3%;
+}
+h1{
+    text-align: center;
+    margin: 3% 0;
+}
+@media (min-width: 768px) {
+    .page div.container{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       column-gap: 2rem;
+    }
+}
+#part_1 div.container_1 {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 2%;
+    cursor: pointer
+}
+#part_1 div.container_1.activa{
+    width: 100%;
+    margin-top: -0.2%;
+}
+#part_1 .container_1:hover{
+    border: 2px solid blue;
+}
+#part_1 h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+#part_1 .container_1 , .container_2 h2 {
+    font-size: 1.5rem;
+    margin: 1% 0;
+}
+#part_1 .container_1 img {
+    width: 93%;
+    margin: 3% 0;
+}
+#part_1 .container_1 fieldset {
+    border: none;
+    padding: 3% 0;    
+}
+#part_1 .container_1 fieldset label {
+    padding: 3% 0;    
+}
+#part_1 button.siguiente{
+    display: flex;
+    justify-content: center;
+    background-color: #4C4C4E;
+    color: white;
+    border-radius: 20px;
+    height: 100%;
+    padding: 1% 3%;
+    margin-top: 1%;
+}
+#part_1 .container_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#part_1 .container_2 img {
+    width: 93%;
+    border: 2px solid black;
+    padding: 3%;
+}
+#part_1 .container_2.activa img {
+    border: 2px solid blue;
+    padding: 5%;
+    margin: -1%;
+}
+@media (min-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px; 
+        text-align: center;
+        width: 95%;
+    }
+}
+.grid-container{
+    padding: 20px; 
+    text-align: center;
+    width: 95%;
+}
+.grid-item {
+    border: 2px solid black;
+    padding: 3%;
+    margin: 2%;
+    cursor: pointer;
+    background-image: url(Imagenes/Fondo_bebidas.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.grid-item:hover {
+    border: 2px solid blue;
+}
+
+/*Boton JSON */
+#JSON {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#botonJSON{
+    border-radius: 50%;
+    border-style: hidden;
+    background-color: white;
+}
+
+/*  Comentarios */
+#caja {
+    background-color: rgb(219, 219, 219);
+    min-height: 400px;
+    padding: 0px 20px;
+    border-style: groove;
+    border-radius: 2%;
+}

@@ -1,0 +1,30 @@
+[
+    {"Sección":"Plato Fuerte","Platillo":"[Res] Lomo","Precio":"$50.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Res] Tri-Tip Steak","Precio":"$65.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Res] Rib Eye Steak","Precio":"$65.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Cerdo] Lomo","Precio":"$47.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Cerdo] Costilla","Precio":"$50.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Cerdo] Bisteck","Precio":"$50.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Pescado] Tilapia","Precio":"$45.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Pescado] Atún","Precio":"$50.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Plato Fuerte","Platillo":"[Pescado] Salmon","Precio":"$50.00","Disponibilidad":"√/Ø"},
+
+    {"Sección":"Acompañamiento","Platillo":"Arroz","Precio":"$5.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Acompañamiento","Platillo":"Pure de papa","Precio":"$5.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Acompañamiento","Platillo":"Ensalada","Precio":"$5.00","Disponibilidad":"√/Ø"},
+
+    {"Sección":"Bebida","Platillo":"Fresa","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Piña","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Limonada","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Frutas","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Guanabana","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Orchata","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Té frío","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Té blanco","Precio":"$2.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Bebida","Platillo":"Té de manzana","Precio":"$2.00","Disponibilidad":"√/Ø"},
+
+
+    {"Sección":"Postres","Platillo":"Pie de limón","Precio":"$18.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Postres","Platillo":"Flan","Precio":"$17.00","Disponibilidad":"√/Ø"},
+    {"Sección":"Postres","Platillo":"Parfair","Precio":"$15.00","Disponibilidad":"√/Ø"}
+]

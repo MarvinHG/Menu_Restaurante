@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Vintage;
+    src: url(Font/Vintage.otf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(Font/Helvetica.ttf);
+}
+h1{
+    font-family: Vintage;
+    font-size: -0.8rem;
+}
+h2{
+    font-family: Helvetica;
+    font-size: 1.8rem;
+}
+span{
+    font-family: Helvetica;
+    font-size: 1.5rem;
+}
+p, label{
+    font-family: Helvetica;
+    font-size: 1.2rem;
+}

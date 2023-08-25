@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="js/activa.js" defer ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body id="part_1">
+    <nav>
+        <a href="part_1.html"><button><span> 1 </span></button></a>
+        <a href="#"><button onclick="goToPage(2)"><span> 2 </span></button></a>
+        <a href="#"><button onclick="goToPage(3)"><span> 3 </span></button></a>
+        <a href="#"><button onclick="goToPage(4)"><span> 4 </span></button></a>
+        <hr>
+    </nav>
+    <div class="page" id="page1">
+        <section class="Carnes" id="almuerzo">
+            <h1> Carnes </h1>
+            <div class="container">
+                <div class="container_1">
+                    <img src="css/Imagenes/res.png" alt="plato de carne de res">
+                    <h2>RES</h2> 
+                    <fieldset>
+                        <input type="checkbox" name="Res" value="Lomo" data-price="50.00">
+                        <label for="op1_r"> Lomo . . . . . . . . . . . . . . . .  $50.00 </label> <br> <br>
+                        <input type="checkbox" name="Res"  value="TriTipSteak" data-price="65.00">
+                        <label for="op2_r"> Tri-Tip Steak  . . . . . . . . .  . $65.00</label> <br> <br>
+                        <input type="checkbox" name="Res"  value="RibEyeSteak" data-price="65.00">
+                        <label for="op3_r"> Rib Eye Steak  . . . . . . . . . $65.00 </label> <br> 
+                    </fieldset>
+                </div><!--.container_1-->
+                <div class="container_1 activa">
+                    <img src="css/Imagenes/cerdo.png" alt="plato de carne de cerdo">
+                    <h2>CERDO</h2>
+                    <fieldset>
+                        <input type="checkbox" name="Cerdo" value="Lomo" data-price="47.00">
+                        <label for="op2_C"> Lomo . . .   . . . . . . . . . . . . $47.00 </label> <br> <br>
+                        <input type="checkbox" name="Cerdo" value="Costila" data-price="50.00">
+                        <label for="op2_C"> Costilla . . .   . . . . . . . . . . . . $50.00 </label> <br> <br>
+                        <input type="checkbox" name="Cerdo" value="Bisteck" data-price="45.00">
+                        <label for="op4_C"> Bisteck  . . . . . . . . . . . . . .  $45.00 </label> <br>
+                    </fieldset>
+                </div><!--.container_1 .activa-->
+                <div class="container_1">
+                    <img src="css/Imagenes/pescado.png" alt="plato de carne de pescado">
+                    <h2>PESCADO</h2>
+                    <fieldset>
+                        <input type="checkbox" name="Pescado" value="Tilapia" data-price="45.00">
+                        <label for="op1_P"> Tilapia. . . . . . . . . . . . . . . .  $45.00 </label> <br> <br>
+                        <input type="checkbox" name="Pescado" value="Atun" data-price="50.00">
+                        <label for="op2_P"> Atun . . .   . . . . . . . . .  .  . . . . $50.00 </label> <br> <br>
+                        <input type="checkbox" name="Pescado" value="Salmon" data-price="50.00">
+                        <label for="op3_P"> Salmon  . . . .  . . . . . . . . . . . $50.00 </label> <br> 
+                    </fieldset>
+                </div><!--.container_1-->
+            </div><!--.container-->
+            <button class="siguiente" onclick="goToPage(2)"><span> SIGUIENTE </span></button>
+        </section><!--#almuerzo-->
+
+        <section class="desayuno" id="desayuno">
+            <h1> Desayunos </h1>
+            <div class="container">
+                <div class="container_1">
+                    <img src="css/Imagenes/gallo-pinto.gif" alt="plato de carne de res">
+                    <h2>Pinto</h2> 
+                    <fieldset>
+                        <input type="checkbox" name="Pinto" value="Pinto" data-price="50.00">
+                        <label for="op1_r"> Pinto . . . . . . . . . . . . . . . .  $50.00 </label> <br> <br>
+                        <input type="checkbox" name="Bacon"  value="Bacon" data-price="65.00">
+                        <label for="op2_r"> Con Bacon  . . . . . . . . .  . $65.00</label> <br> <br>
+                        <input type="checkbox" name="Jamon"  value="Jamon" data-price="65.00">
+                        <label for="op3_r"> Con Jamon  . . . . . . . . . $65.00 </label> <br> 
+                    </fieldset>
+                </div><!--.container_1-->
+                <div class="container_1 activa">
+                    <img src="css/Imagenes/emparedado.png" alt="plato de carne de cerdo">
+                    <h2>Emparedado</h2>
+                    <fieldset>
+                        <input type="checkbox" name="Emparedado" value="Emparedado" data-price="40.00">
+                        <label for="op2_C"> Emparedado . . .   . . . . . . . . . $40.00 </label> <br> <br>
+                        <input type="checkbox" name="DCarne" value="DCarne" data-price="50.00">
+                        <label for="op2_C"> De Carne . . .   . . . . . . . . . . . . $50.00 </label> <br> <br>
+                        <input type="checkbox" name="DPollo" value="DPollo" data-price="45.00">
+                        <label for="op4_C"> De Pollo  . . . . . . . . . . . . . .  $45.00 </label> <br>
+                    </fieldset>
+                </div><!--.container_1 .activa-->
+                <div class="container_1">
+                    <img src="css/Imagenes/pancakes.png" alt="plato de carne de pescado">
+                    <h2>Pancakes</h2>
+                    <fieldset>
+                        <input type="checkbox" name="Pancakes" value="Pancakes" data-price="40.00">
+                        <label for="op1_P"> Pancakes. . . . . . . . . . . . . . . .  $40.00 </label> <br> <br>
+                        <input type="checkbox" name="Miel" value="Miel" data-price="50.00">
+                        <label for="op2_P"> Con Miel . . .   . . . . . . . . .  .  . . . . $50.00 </label> <br> <br>
+                        <input type="checkbox" name="Jalea" value="Jalea" data-price="50.00">
+                        <label for="op3_P"> Con Jalea  . . . .  . . . . . . . . . . . $50.00 </label> <br> 
+                    </fieldset>
+                </div><!--.container_1-->
+            </div><!--.container-->
+            <button class="siguiente" onclick="goToPage(2)"><span> SIGUIENTE </span></button>
+        </section><!--#desayuno-->   
+    </div> <!--.page #page1-->
+
+    <div class="page" id="2" style="display: none;">
+        <section class="Acompañamientos" id="acompa-almuerzo">
+            <h1> Acompañamientos </h1>
+            <div class="container" data-price="5.00">
+                <div class="container_2">
+                    <img src="css/Imagenes/arroz.png" alt="arroz">
+                    <input type="checkbox" name="Acompañamiento" value="arroz" data-price="5.00">
+                    <h2>ARROZ</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2 activa" data-price="5.00">
+                    <img src="css/Imagenes/pure de papa.png" alt="pure de papa">
+                    <input type="checkbox" name="Acompañamiento" value="pure de papa" data-price="5.00">
+                    <h2>PURE DE PAPA</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2" data-price="5.00">
+                    <img src="css/Imagenes/ensalada.png" alt="ensalada">
+                    <input type="checkbox" name="Acompañamiento" value="ensalada" data-price="5.00">
+                    <h2>ENSALADA</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2 .activa-->
+            </div><!--.container-->
+            <br>
+            <button class="siguiente" onclick="goToPage(3)"><span> SIGUIENTE </span></button>
+        </section>
+
+        <section class="Acompañamientos" id="acompa-desayuno">
+            <h1> Acompañamientos </h1>
+            <div class="container" data-price="5.00">
+                <div class="container_2">
+                    <img src="css/Imagenes/frutas.png" alt="frutas">
+                    <input type="checkbox" name="Acompañamiento" value="frutas" data-price="5.00">
+                    <h2>Frutas</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2 activa" data-price="5.00">
+                    <img src="css/Imagenes/yugurt.png" alt="Yogurt">
+                    <input type="checkbox" name="Acompañamiento" value="yogurt" data-price="5.00">
+                    <h2>Yogurt</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2" data-price="5.00">
+                    <img src="css/Imagenes/avena.png" alt="avena">
+                    <input type="checkbox" name="Acompañamiento" value="avena" data-price="5.00">
+                    <h2>Avena</h2>
+                    <H2>$5.00</H2>
+                </div><!--.container_2 .activa-->
+            </div><!--.container-->
+            <br>
+            <button class="siguiente" onclick="goToPage(3)"><span> SIGUIENTE </span></button>
+        </section>
+    </div><!--.page #page2-->
+      
+    <div class="page" id="3" style="display: none;">
+        <section class="Bebidas">
+            <h1> Bebidas </h1>
+            <div class="container-bebidas">
+                <div class="grid-container">
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="fresa" data-price="2.00"><span> FRESA </span> </div>
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="frutas" data-price="2.00"><span>FRUTAS</span> </div>
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="te frio" data-price="2.00"><span> TE FRIO</span> </div>  
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="piña" data-price="2.00"><span>PIÑA</span> </div>
+                    <div class="grid-item" data-price="2.00" > <input type="checkbox" name="Fresco" value="guanabana" data-price="2.00"><span> GUANABANA</span> </div>
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="te blanco" data-price="2.00"><span>TE BLANCO </span> </div>  
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="limonada" data-price="2.00"><span> LIMONADA</span> </div>
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="orchata" data-price="2.00"><span> ORCHATA </span> </div>
+                    <div class="grid-item" data-price="2.00"> <input type="checkbox" name="Fresco" value="te de manzana" data-price="2.00"><span> TE DE MANZANA </span> </div>
+                    <p> $2.00 </p>
+                </div><!--.grid-container-->
+            </div><!--.container-->
+            <br>
+            <button class="siguiente" onclick="goToPage(4)"><span> SIGUIENTE </span></button>
+        </section>
+    </div><!--.page #page3-->
+
+    <div class="page" id="4" style="display: none;">
+        <section class="Postres">
+            <h1> Postres </h1>
+            <div class="container">
+                <div class="container_2">
+                    <img src="css/Imagenes/postre_1.png" alt="postre" data-price="18.00">
+                    <input type="checkbox" name="Postre" value="pie de limon" data-price=18.00">
+                    <H2>$18.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2 activa">
+                    <img src="css/Imagenes/postre_2.png" alt="postre" data-price="17.00">
+                    <input type="checkbox" name="Postre" value="cheesecake" data-price=17.00">
+                    <H2>$17.00</H2>
+                </div><!--.container_2-->
+                <div class="container_2">
+                    <img src="css/Imagenes/postre_3.png" alt="postre" data-price="15.00">
+                    <input type="checkbox" name="Postre" value="smoothie" data-price=15.00">
+                    <H2>$15.00</H2>
+                </div><!--.container_2-->
+            </div><!--.container-->
+            <br>
+            <button onclick="goToPage(5)" class="generarFactura"> <span>Generar factura</span></button>
+        </section>
+        </div>
+
+        <div class="page" id="5" style="display: none;">
+            <h1>Factura</h1>
+            <h2>Plato Principal . . . . . $<span id="platoPrincipalPrecio">0.00</span></h2>
+            <h2>Acompañamiento . . . . . $<span id="acompañamientoPrecio">0.00</span></h2>
+            <h2>Bebida . . . . . $<span id="bebidaPrecio">0.00</span></h2>
+            <h2>Postre . . . . . $<span id="postrePrecio">0.00</span></h2>
+            <h2>Total $<span id="total">0.00</span></h2>
+            <div id="selecciones"></div>
+        </div>
+        <section>
+            <br>
+            <button class="siguiente btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><strong></strong>COMENTAR</button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Caja de Comentarios</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <p id="total"></p>            
+                <section>
+                    <div id="caja">
+                        <p id="sugerencia"></p>
+                    </div>
+                  <br>  
+                  <button id="comentar" onclick="sugerencias()"  type="button" class="btn btn-outline-success">Comentar</button>
+                  <p id="total"></p>
+                </section>
+              </div>
+            </div>
+          </section>
+    </div><!--.page #page4-->
+
+    <!-- JSON -->
+    <footer id="JSON">
+        <button id="botonJSON" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16"fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Precios y Disponibilidad</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="container">
+              <div class="section">
+                  <button style="margin-right:350px ;" id="boton" class="btn">Inventario</button>
+                  <table class="table table-striped">
+                      <thead class="thead-dark">
+                          <tr>
+                              <th scope="col">Sección</th>
+                              <th scope="col">Platillo</th>
+                              <th scope="col">Precio</th>
+                              <th scope="col">Disponibilidad</th>
+                          </tr>
+                      </thead>
+                      <tbody id="res"></tbody>
+                  </table>
+              </div>
+          </div>
+          </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
